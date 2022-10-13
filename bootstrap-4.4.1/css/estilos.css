@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+/* line 10, ../scss/estilos.scss */
+.bg-primary {
+  background-color: #2F72FF !important; }
+
+/* line 13, ../scss/estilos.scss */
+.text-primary {
+  color: #2F72FF !important; }
+
+/* line 17, ../scss/estilos.scss */
+.btn-primary {
+  background-color: #2F72FF !important;
+  border-color: #0040c8 !important; }
+
+/* line 21, ../scss/estilos.scss */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0051fb !important; }
+
+
+/* line 25, ../scss/estilos.scss */
+.btn-primary:active {
+  background-color: #0040c8 !important;
+  border-color: #003095 !important; }
+
+/* line 29, ../scss/estilos.scss */
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(47, 114, 255, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(47, 114, 255, 0.5) !important; }
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+/* line 36, ../scss/estilos.scss */
+html {
+  font-size: 13px; }
+
+/* line 39, ../scss/estilos.scss */
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 44, ../scss/estilos.scss */
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/* line 50, ../scss/estilos.scss */
+.img-text {
+  position: relative; }
+
+/* line 53, ../scss/estilos.scss */
+.texto {
+  position: absolute;
+  top: 60%;
+  left: 2px;
+  width: 100%;
+  color: white;
+  padding: 160px 389px 0px 380px;
+  font-size: 25px; }
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) {
+  /* line 68, ../scss/estilos.scss */
+  html {
+    font-size: 16px; } }
+/* line 74, ../scss/estilos.scss */
+#collaborate {
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  padding: 12px 25px;
+  position: relative;
+  margin-bottom: 50px;
+  position: relative; }
+
+/* line 85, ../scss/estilos.scss */
+.cartoon {
+  float: left;
+  display: block;
+  position: absolute;
+  left: 850px;
+  top: -78px;
+  margin: auto; }
+
+/* line 95, ../scss/estilos.scss */
+#collaborate .text {
+  float: left;
+  font-size: 18px;
+  line-height: 30px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+
+/* line 102, ../scss/estilos.scss */
+.container-fluid {
+  background-image: url("bootstrap-4.4.1/img/bg.jpg"); }
+
+/* line 106, ../scss/estilos.scss */
+.progress_skills .single_progress {
+  margin-bottom: 15px;
+  font-size: 14px; }
+
+/*Estilos del footer*/
+/* line 115, ../scss/estilos.scss */
+footer {
+  background-color: #292c2f;
+  -webkit-box-shadow: 0 1px 1px 0 rgba 0, 0, 0, 0.12;
+          box-shadow: 0 1px 1px 0 rgba 0, 0, 0, 0.12;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  
+  bottom: 0;
+  color: #fff; }
+
+/* line 128, ../scss/estilos.scss */
+.footer-navigation h3 {
+  margin: 0;
+  font: normal 36px Cookie, cursive;
+  margin-bottom: 20px;
+  color: #fff; }
+
+/* line 135, ../scss/estilos.scss */
+.footer-navigation h3 a {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 140, ../scss/estilos.scss */
+.footer-navigation h3 span {
+  color: #5383d3; }
+
+/* line 144, ../scss/estilos.scss */
+.footer-navigation p.links a {
+  color: #fff;
+  text-decoration: none; }
+
+/* line 149, ../scss/estilos.scss */
+.footer-navigation p.company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px; }
+
+@media (max-width: 767px) {
+  /* line 157, ../scss/estilos.scss */
+  .footer-contacts {
+    margin: 30px 0; } }
+/* line 162, ../scss/estilos.scss */
+.footer-contacts p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle; }
+
+/* line 168, ../scss/estilos.scss */
+.footer-contacts p a {
+  color: #5383d3;
+  text-decoration: none; }
+
+/* line 173, ../scss/estilos.scss */
+.fa.footer-contacts-icon {
+  background-color: #33383b;
+  color: #fff;
+  font-size: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  margin: 10px 15px 10px 0; }
+
+/* line 185, ../scss/estilos.scss */
+span.new-line-span {
+  display: block;
+  font-weight: normal;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2; }
+
+/* line 194, ../scss/estilos.scss */
+.footer-about h4 {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+/* line 202, ../scss/estilos.scss */
+.footer-about p {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0; }
+
+/* line 210, ../scss/estilos.scss */
+div.social-links {
+  margin-top: 20px;
+  color: #fff; }
+
+/* line 215, ../scss/estilos.scss */
+.social-links a {
+  /* display: inline-block;*/
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+  background-color: #33383b;
+  /*border-radius: 10px;*/
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 5px;
+  margin-bottom: 5px; }
+
+/*# sourceMappingURL=estilos.css.map */
+
+
