@@ -1,0 +1,164 @@
+:root {
+  --main:#5B752F;
+  --main0: #5b752f5c;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+/* p{ margin-bottom: 0px; } */
+.footer, .bg-azulclaro{ background-color: var(--main0); }
+.bg-rojopalido{ background: var(--main0); }
+.color-general{ color: var(--main); }
+a.color-general-hover:hover{
+  color: var(--main) !important;
+  text-decoration: none !important;
+}
+a:hover{ text-decoration: none !important; }
+.bg-general{ background:  var(--main); }
+.border-general1{ border: 1px solid var(--main); }
+.border-general2{ border: 2px solid var(--main); }
+.bl2-general{ border-left: 2px solid var(--main); }
+.ff-1{ font-family: Domaine Disp; }
+.box-shadow1{ box-shadow: 0px 3px 6px #8a8a8a; }
+.speech-bubble {
+	position: relative;
+	border-radius: .4em;
+  border: 1px solid #e6ae1d;
+}
+
+/* basicos */
+label{margin-bottom: 0px;}
+.z-1{z-index: 1}
+.op-05{ opacity: 0.5; }
+.op-1{ opacity: 1; }
+.d-middle{ display: flex; align-items: center; }
+.d-middle-center{ display: flex; align-items: center; justify-content: center; }
+.obj-cover{ object-fit: cover; }
+.obj-center{ object-position: center;}
+.vertical-middle{ vertical-align: middle !important; }
+.cr-pointer{cursor: pointer;}
+.cr-grabbing{cursor: grabbing;}
+/* font-weigth - Negrilla */
+.f-100{ font-weight: 100 !important; }
+.f-300{ font-weight: 300 !important; }
+.f-400{ font-weight: 400 !important; }
+.f-500{ font-weight: 500 !important; }
+.f-600{ font-weight: 600 !important; }
+.f-800{ font-weight: 800 !important; }
+/* font-size - tamaño de fuente*/
+.f-10{ font-size: 10px !important; }
+.f-11{ font-size: 11px !important; }
+.f-12{ font-size: 12px !important; }
+.f-13{ font-size: 13px !important; }
+.f-14{ font-size: 14px !important; }
+.f-15{ font-size: 15px !important; }
+.f-16{ font-size: 16px !important; }
+.f-17{ font-size: 17px !important; }
+.f-18{ font-size: 18px !important; }
+.f-19{ font-size: 19px !important; }
+.f-20{ font-size: 20px !important; }
+.f-21{ font-size: 21px !important; }
+.f-22{ font-size: 22px !important; }
+.f-23{ font-size: 23px !important; }
+.f-24{ font-size: 24px !important; }
+.f-25{ font-size: 25px !important; }
+.f-26{ font-size: 26px !important; }
+.f-30{ font-size: 30px !important; }
+.f-31{ font-size: 31px !important; }
+.f-32{ font-size: 32px !important; }
+.f-35{ font-size: 35px !important; }
+.f-40{ font-size: 40px !important; }
+.f-41{ font-size: 41px !important; }
+.f-48{ font-size: 48px !important; }
+.f-50{ font-size: 50px !important; }
+.f-60{ font-size: 60px !important; }
+.f-82{ font-size: 82px !important; }
+
+/* border-radius */
+.br-5{ border-radius: 5px !important; }
+.text-muted2{color:#5d5d5d;}
+.text-muted3{color:#dbdbdb;}
+/* backgrounds */
+.bg-whitesmoke { background-color: whitesmoke; }
+.bg-whitesmoke2 { background-color: #dbdbdb; }
+.bg-whitesmoke3 { background-color: #fbfbfb; }
+/* otros */
+.text-upper{
+  text-transform: uppercase;
+}
+.linea{float: left;width: 100%;height: 5px;background: var(--main);}
+.card-effect{
+  transition: .7s;
+}
+.card-effect:hover{
+  transition: .45;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.card-testimonial{
+  border: 2px dashed var(--main);
+}
+.person4, .person5, .person6{
+  margin-top: -40px;
+}
+.seal{
+  background: #f6f6f6;
+}
+.btn-promo{
+  transition: .4s;
+}
+.btn-promo:hover{
+  transition: .75s;
+  background: var(--main);
+  color: white;
+  transform: scale(1.1);
+}
+.text-p-one{
+  color: #406cab;
+}
+.panel-sold{
+  background-color: #FDCBA6 ;
+  color: white ;
+  border:  5px white;
+  border-style: dotted ;
+}
+@keyframes latidos {
+  from { transform: none; }
+  50% { transform: scale(0.9); }
+  to { transform: none; }
+}
+/* En la clase corazon vamos a llamar latidos en la animación  */
+.corazon {
+  cursor: pointer;
+  width: 80%;
+  height: 80px;
+  color: black;
+  background-color: orange;
+  animation: latidos .9s infinite;
+  border-radius: 15px;
+}
+.button-order{
+  width: 70%;
+  height: 60px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-order{
+    width: 90%;
+    height: 80px;
+    font-size: 15px;
+  }
+  .td-1{
+    display: none;
+  }
+  .corazon {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 130px;
+    color: black;
+    background-color: orange;
+    animation: latidos .9s infinite;
+    border-radius: 15px;
+  }
+}
